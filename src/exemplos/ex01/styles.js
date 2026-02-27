@@ -5,14 +5,14 @@ const styles = StyleSheet.create(
     {
         container: { 
             flex: 1,
-            backgroundColor: '#ff0', 
+            backgroundColor: '#42A5F5', 
             alignItems: 'center', 
             justifyContent: 'space-evenly',             
         }, 
         titulo: {
             fontSize: RFPercentage(5), 
             fontWeight: 'bold', 
-            color: '#777', 
+            color: '#0D47A1', 
         }, 
         txt: {
             fontSize: RFPercentage(2.5), 

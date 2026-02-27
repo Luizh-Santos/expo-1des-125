@@ -44,7 +44,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'darkslategrey',
+    backgroundColor: '#0D47A1',
     padding: RFPercentage(1.2),
     paddingTop: Constants.statusBarHeight,
   },
