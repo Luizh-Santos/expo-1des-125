@@ -16,13 +16,13 @@ const Stack = createNativeStackNavigator();
 function StackExemplos() {
   return (
     <Stack.Navigator screenOptions={{
-      headerStyle: { backgroundColor: 'tomato' }, 
+      headerStyle: { backgroundColor: '#0D47A1' }, 
       // headerShown: false,      
     }}>
       <Stack.Screen 
         name="Home" 
         component={ListaExemplos} 
-        options={{ title: 'React Native', headerTintColor: '#0D47A1' }}
+        options={{ title: 'React Native', headerTintColor: 'black' }}
       />
       <Stack.Screen name="Ex1" component={Exemplo01} />
       <Stack.Screen name="Ex2" component={Exemplo02} />
